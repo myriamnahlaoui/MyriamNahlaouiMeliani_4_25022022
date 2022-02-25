@@ -9,15 +9,17 @@ function editNav() {
 
 // DOM Elements
 const modalbg = document.querySelector(".bground");
-const modalBtn = document.querySelectorAll(".modal-btn");
-const formData = document.querySelectorAll(".formData");
+//bouton je m'inscris
+const modalBtn = document.querySelectorAll(".modal-btn"); 
 
-// launch modal event
+//const formData = document.querySelectorAll(".formData");
+
+// ouvrir le formulaire
 modalBtn.forEach((btn) => btn.addEventListener("click", launchModal));
 
-// launch modal form
+// affichage du formulaire
 function launchModal() {
   modalbg.style.display = "block";
 }
 
-
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
